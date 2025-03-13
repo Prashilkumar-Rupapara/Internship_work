@@ -3,9 +3,8 @@ import numpy as np
 
 
 '''
-	The first element of every value represents x_min, x_max, y_min, y_max of the original numpy array
-	while the following elements correspond to the (x, y) coordinates of the  
-	top-left and bottom-right corners, respectively means (x1, y1, x2, y2).  
+	The first element of every value represents x_min, x_max, y_min, y_max of the original numpy array and
+	the following elements are (x1, y1, x2, y2) - coordinates of the top-left and bottom-right corners).  
 '''
 masks_original_dim = {
 	'FCGB1': [
