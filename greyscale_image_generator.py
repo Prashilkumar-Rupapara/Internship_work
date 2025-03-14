@@ -5,7 +5,7 @@ import os
 from scipy.interpolate import griddata
 from tqdm import tqdm
 from typing import Sequence, Optional
-from Masks import masks, apply_mask_on_2Darray
+from masks import masks, apply_mask_on_2Darray
 
 # Define needed functions
 def load_npy_file(npy_file: str) -> np.ndarray:
