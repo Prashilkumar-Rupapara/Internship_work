@@ -1,6 +1,4 @@
 import numpy as np
-import cv2
-
 
 
 '''
@@ -99,7 +97,7 @@ def apply_mask_on_2Darray(array: np.ndarray, mask: list[list[float]]):
 
 
 if __name__ == "__main__":
-	from interpolated_greyscale_image_generator import load_npy_file, process_and_group_data, interpolate_nlcreq, save_normalized_greyscale_image
+	from greyscale_image_generator import load_npy_file, process_and_group_data, interpolate_nlcreq, save_normalized_greyscale_image
 
 	arr = load_npy_file(r'.\data\SAC105\FCGB1_sac105.npy')
 	grouped_data = process_and_group_data(arr)
