@@ -1,3 +1,6 @@
 test*
 venv_*
 __pycache__
+
+
+.vscode
